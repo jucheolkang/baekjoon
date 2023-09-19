@@ -7,4 +7,4 @@ visit = [[0] for _ in range(roof)]
 for i in range(roof):
     for j in range(roof):
         if visit[i] == 0 and graph[i][j] !=0:
-            
+            print(i)
